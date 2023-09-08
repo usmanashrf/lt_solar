@@ -38,7 +38,7 @@ const Blog = () => {
                     {/* Text Box */}
                     <div className='sm:space-y-3 max-sm:text-center'>
                         <h5 className='text-[#F6A235] max-sm:!w-fit max-sm:mx-auto font-semibold'>Recent Articles</h5>
-                        <div className='sm:space-y-5 space-y-3'>
+                        <div className='sm:space-y-5 space-y-3 max-sm:mt-1'>
                             <h1 className='text-white !mb-0'>OUR <span className='text-[#F6A235]'>Blogs</span></h1>
                             <hr className='max-w-[157px] max-sm:mx-auto' />
                             <p className='text-white sm:leading-tight'>Our team has the courage, scale, passion, diversity and resourcefulness that promise wherever and however the world needs it.</p>
