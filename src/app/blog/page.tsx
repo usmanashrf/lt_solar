@@ -3,6 +3,7 @@ import React from 'react'
 import Check from "../../../public/Check.svg"
 import Search from "../../../public/Search.svg"
 import Calendar from "../../../public/Calendar.svg"
+import User from "../../../public/User.svg"
 import RightArrow from "../../../public/Right Arrow.svg"
 import Instagram from "../../../public/Instagram.svg"
 import Dribbble from "../../../public/Dribbble.svg"
@@ -53,8 +54,12 @@ const Blog = () => {
                 {/* Left Side */}
                 <div className='max-w-[635.179px]'>
                     <div className='text-[#F6A235] flex gap-3'>
-                        <h5>By Admin</h5>
-                        <h5>July 2, 2021</h5>
+                        <div className='flex gap-3 items-center'>
+                            <Image src={User} alt='' /><h5>By Admin</h5>
+                        </div>
+                        <div className='flex gap-3 items-center'>
+                            <Image src={Calendar} alt='' /><h5>July 2, 2021</h5>
+                        </div>
                     </div>
                     <h1 className='mt-4'>Smarter Ways to Manage EV Charging Infrastructures</h1>
                     <div className='max-sm:space-y-4'>
@@ -157,10 +162,10 @@ const Blog = () => {
                     <div style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.10)" }} className='sm:min-w-[445px] p-5 mt-5'>
                         <h4>Share</h4>
                         <div className='flex gap-4'>
-                            <Image src={Instagram} alt=''/>
-                            <Image src={Dribbble} alt=''/>
-                            <Image src={Twitter} alt=''/>
-                            <Image src={Youtube} alt=''/>
+                            <Image src={Instagram} alt='' />
+                            <Image src={Dribbble} alt='' />
+                            <Image src={Twitter} alt='' />
+                            <Image src={Youtube} alt='' />
                         </div>
                     </div>
 
