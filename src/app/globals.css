@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.Hero {
+    background: url("../../public/Background\ Image.png"), lightgray 50% / cover no-repeat;
+}
+
+.Hero-box {
+    border-radius: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6.800000190734863px);
+}
