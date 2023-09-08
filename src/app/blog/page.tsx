@@ -14,7 +14,7 @@ import PostImage3 from "../../../public/Post Image 3.png"
 
 const Blog = () => {
     return (
-        <main className='max-w-[1440px] mx-auto w-full'>
+        <main className='max-w-[1440px] mx-auto w-full pb-10'>
             {/* Hero Section */}
             <section className='Hero flex items-end sm:min-h-[600px] min-h-[410px] relative px-4'>
                 {/* Hero Box */}
