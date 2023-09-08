@@ -19,7 +19,7 @@ const Blog = () => {
             {/* Hero Section */}
             <section className='Hero flex items-end sm:min-h-[600px] min-h-[410px] relative px-4'>
                 {/* Hero Box */}
-                <div className='Hero-box flex max-sm:justify-center items-center prose prose-hr:my-0 sm:prose-h1:text-[58px] prose-h1:text-[30px] sm:prose-p:text-[16px] prose-p:text-[14px] max-sm:prose-h5:text-[12px] sm:px-20 mb-20 lg:ml-48 max-sm:mt-20 w-full sm:max-w-[707px] min-h-[290px] sm:min-h-[371px] max-sm:w-full relative z-20'>
+                <div className='Hero-box flex max-sm:justify-center items-center prose prose-hr:my-0 sm:prose-h1:text-[58px] prose-h1:text-[30px] sm:prose-p:text-[16px] prose-p:text-[14px] max-sm:prose-h5:text-[12px] sm:px-20 mb-20 lg:ml-[10vw] max-sm:mt-20 w-full sm:max-w-[707px] min-h-[290px] sm:min-h-[371px] max-sm:w-full relative z-20'>
                     {/* blur div */}
                     <div className='max-sm:opacity-20 min-w-[386px] -z-10 min-h-[349px] right-14 rounded-[386px] bg-[#090909] blur-[80px] absolute'></div>
                     {/* blur svg */}
