@@ -19,7 +19,7 @@ const Blog = () => {
             {/* Hero Section */}
             <section className='Hero flex items-end sm:min-h-[600px] min-h-[410px] relative px-4'>
                 {/* Hero Box */}
-                <div className='Hero-box flex max-sm:justify-center items-center prose prose-hr:my-0 sm:prose-h1:text-[58px] prose-h1:text-[30px] sm:prose-p:text-[16px] prose-p:text-[14px] max-sm:prose-h5:text-[12px] sm:px-20 mb-20 md:ml-48 max-sm:mt-20 sm:min-w-[707px] min-h-[290px] sm:min-h-[371px] max-sm:w-full relative z-20'>
+                <div className='Hero-box flex max-sm:justify-center items-center prose prose-hr:my-0 sm:prose-h1:text-[58px] prose-h1:text-[30px] sm:prose-p:text-[16px] prose-p:text-[14px] max-sm:prose-h5:text-[12px] sm:px-20 mb-20 lg:ml-48 max-sm:mt-20 w-full sm:max-w-[707px] min-h-[290px] sm:min-h-[371px] max-sm:w-full relative z-20'>
                     {/* blur div */}
                     <div className='max-sm:opacity-20 min-w-[386px] -z-10 min-h-[349px] right-14 rounded-[386px] bg-[#090909] blur-[80px] absolute'></div>
                     {/* blur svg */}
@@ -50,7 +50,7 @@ const Blog = () => {
                 </div>
             </section>
 
-            <section className='max-lg:px-5 flex sm:flex-row flex-col gap-8 prose-p:leading-normal max-w-[1100px] prose-h4:text-[20px] prose-h4:my-0 mx-auto prose sm:prose-h5:text-base prose-h5:text-[12px] max-sm:prose-h5:leading-normal prose-img:my-4 sm:prose-h1:text-[44px] prose-h1:text-[24px] prose-xl prose-h3:text-[20px] sm:prose-h2:text-[36px] prose-h2:text-[24px] prose-h1:leading-snug sm:prose-p:text-[16px] prose-p:text-[14px] prose-p:my-0 pt-[120px]'>
+            <section className='max-lg:px-5 flex md:flex-row flex-col gap-8 prose-p:leading-normal max-w-[1100px] prose-h4:text-[20px] prose-h4:my-0 mx-auto prose sm:prose-h5:text-base prose-h5:text-[12px] max-sm:prose-h5:leading-normal prose-img:my-4 sm:prose-h1:text-[44px] prose-h1:text-[24px] prose-xl prose-h3:text-[20px] sm:prose-h2:text-[36px] prose-h2:text-[24px] prose-h1:leading-snug sm:prose-p:text-[16px] prose-p:text-[14px] prose-p:my-0 pt-[120px]'>
                 {/* Left Side */}
                 <div className='max-w-[635.179px]'>
                     <div className='text-[#F6A235] flex gap-3'>
@@ -110,7 +110,7 @@ const Blog = () => {
                         </div>
                     </div>
 
-                    <div style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.10)" }} className='sm:min-w-[445px] p-5 mt-5'>
+                    <div style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.10)" }} className='sm:min-w-[445px] md:sm:min-w-[375px] lg:sm:min-w-[445px] p-5 mt-5'>
                         <h4 className='max-sm:pb-4'>Recent Posts</h4>
                         <div className='flex items-center gap-4 sm:pr-10'>
                             <Image className='bg-[#FFF3ED] p-2' src={PostImage1} alt='PostImage1' />
@@ -144,7 +144,7 @@ const Blog = () => {
                         </div>
                     </div>
 
-                    <div style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.10)" }} className='sm:min-w-[445px] p-5 mt-5'>
+                    <div style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.10)" }} className='sm:min-w-[445px] md:sm:min-w-[375px] lg:sm:min-w-[445px] p-5 mt-5'>
                         <h4>Categories</h4>
                         <div className='mt-1'>
                             <div className='flex items-center gap-3'>
@@ -159,7 +159,7 @@ const Blog = () => {
                         </div>
                     </div>
 
-                    <div style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.10)" }} className='sm:min-w-[445px] p-5 mt-5'>
+                    <div style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.10)" }} className='sm:min-w-[445px] md:sm:min-w-[375px] lg:sm:min-w-[445px] p-5 mt-5'>
                         <h4>Share</h4>
                         <div className='flex gap-4'>
                             <Image src={Instagram} alt='' />
