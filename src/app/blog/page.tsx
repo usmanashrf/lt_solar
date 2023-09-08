@@ -49,7 +49,7 @@ const Blog = () => {
                 </div>
             </section>
 
-            <section className='max-sm:px-5 flex sm:flex-row flex-col gap-8 prose-p:leading-normal max-w-[1100px] prose-h4:text-[20px] prose-h4:my-0 mx-auto prose sm:prose-h5:text-base prose-h5:text-[12px] max-sm:prose-h5:leading-normal prose-img:my-4 sm:prose-h1:text-[44px] prose-h1:text-[24px] prose-xl prose-h3:text-[20px] sm:prose-h2:text-[36px] prose-h2:text-[24px] prose-h1:leading-snug sm:prose-p:text-[16px] prose-p:text-[14px] prose-p:my-0 pt-[120px]'>
+            <section className='px-5 flex sm:flex-row flex-col gap-8 prose-p:leading-normal max-w-[1100px] prose-h4:text-[20px] prose-h4:my-0 mx-auto prose sm:prose-h5:text-base prose-h5:text-[12px] max-sm:prose-h5:leading-normal prose-img:my-4 sm:prose-h1:text-[44px] prose-h1:text-[24px] prose-xl prose-h3:text-[20px] sm:prose-h2:text-[36px] prose-h2:text-[24px] prose-h1:leading-snug sm:prose-p:text-[16px] prose-p:text-[14px] prose-p:my-0 pt-[120px]'>
                 {/* Left Side */}
                 <div className='max-w-[635.179px]'>
                     <div className='text-[#F6A235] flex gap-3'>
